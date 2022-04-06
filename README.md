@@ -1,4 +1,4 @@
-# google-maps-ACF-filter-pins
+# Filterable javascript Google Maps with ACF fields
 Google maps Javascript API + ACF custom fields repeater + Filtering locations on map
 
 # Usage
