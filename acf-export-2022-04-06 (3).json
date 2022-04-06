@@ -1,0 +1,143 @@
+[
+    {
+        "key": "group_5cab5b7607c14",
+        "title": "Location settings",
+        "fields": [
+            {
+                "key": "field_5ccab4c7c4c4b",
+                "label": "Map",
+                "name": "map_group",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5ccab4dbc4c4c",
+                        "label": "Category",
+                        "name": "category_repeater",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 1,
+                        "max": 0,
+                        "layout": "block",
+                        "button_label": "Add category",
+                        "sub_fields": [
+                            {
+                                "key": "field_5ccab4efc4c4d",
+                                "label": "Title",
+                                "name": "category_title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5ccab4fec4c4e",
+                                "label": "Locations",
+                                "name": "locations_repeater",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "block",
+                                "button_label": "Add location",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5ccab50fc4c4f",
+                                        "label": "Location title",
+                                        "name": "location_title",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5ccab51cc4c50",
+                                        "label": "Location",
+                                        "name": "location",
+                                        "type": "google_map",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "center_lat": "",
+                                        "center_lng": "",
+                                        "zoom": "",
+                                        "height": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-map"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "featured_image"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
